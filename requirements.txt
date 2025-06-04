@@ -4,3 +4,4 @@ plotly==6.1.2
 pandas==2.2.3
 folium==0.19.7
 scipy==1.15.3
+streamlit_folium==0.25.0
