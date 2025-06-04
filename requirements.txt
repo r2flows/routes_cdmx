@@ -1,0 +1,6 @@
+streamlit==1.45.1
+scikit-learn==1.6.1
+plotly==6.1.2
+pandas==2.2.3
+folium==0.19.7
+scipy==1.15.3
