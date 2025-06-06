@@ -28,7 +28,7 @@ def cargar_datos():
         df_combinado = pd.read_csv('mx.csv', low_memory=False)
         df_cdmx_leads = pd.read_csv('cdmx_sin_duplicados.csv')
         filtros_finales = df_cdmx_leads['id'] != 18192325482
-        df_cdmx_leads = [filtros_finales]
+        df_cdmx_leads = df_cdmx_leads[filtros_finales]
         #st.write(df_combinado.count())
         #st.write(df_cdmx_leads)
         # Preparar df_cdmx con columnas específicas
